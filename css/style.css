@@ -1,0 +1,136 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BODY */
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: linear-gradient(135deg, #004aad, #00c6ff);
+    min-height: 100vh;
+    color: #333;
+}
+
+/* HEADER */
+header {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding: 30px 0;
+}
+
+/* CONTAINER */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+/* CARD */
+.card {
+    background: #ffffff;
+    padding: 30px;
+    width: 380px;
+    border-radius: 12px;
+    box-shadow: 0px 10px 25px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+/* TÍTULOS */
+h1 {
+    font-size: 28px;
+}
+
+h2 {
+    margin: 20px 0 10px;
+}
+
+/* BOTÕES */
+.btn {
+    display: block;
+    background: #004aad;
+    color: white;
+    padding: 12px;
+    margin: 10px 0;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #00337a;
+    transform: scale(1.05);
+}
+
+/* INPUTS */
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+input:focus {
+    border-color: #004aad;
+}
+
+/* LABEL */
+label {
+    display: block;
+    text-align: left;
+    margin-top: 10px;
+}
+
+/* LISTA (SEU CASO - LISTA DE PESSOAS) */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background: #fff;
+    margin: 10px auto;
+    padding: 12px;
+    width: 90%;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    text-align: left;
+}
+
+/* LINKS */
+a {
+    display: inline-block;
+    margin: 10px 5px;
+    color: #004aad;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* TABELA (caso use depois) */
+table {
+    width: 100%;
+    margin-top: 15px;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+th {
+    background: #004aad;
+    color: white;
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}

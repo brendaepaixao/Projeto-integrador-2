@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cadastro de Fornecedores</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>Cadastro de Fornecedores</h1>
+</header>
+
+<div class="container">
+    <div class="card">
+
+        <form>
+            <label>Razão Social:</label>
+            <input type="text" required>
+
+            <label>CNPJ:</label>
+            <input type="text" id="cnpj" required>
+            <small id="erroCnpj" style="color:red; display:none;">
+                CNPJ inválido
+            </small>
+
+            <button type="submit" class="btn">Cadastrar</button>
+        </form>
+
+        <div style="margin-top: 15px;">
+            <a href="lista-fornecedores.html" class="btn">Ver Fornecedores</a>
+            <a href="index.html" class="btn">Menu</a>
+        </div>
+
+    </div>
+</div>
+
+</body>
+</html>

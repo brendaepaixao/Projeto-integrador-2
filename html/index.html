@@ -1,30 +1,30 @@
 <!DOCTYPE html>
 <html>
-<heade>
+<head>
     <h1>Sistema De Gestão Universitária</h1>
     <link rel="stylesheet" type="text/css" href="../css/style.css">
-</heade>
+</head>
 
 <body>
 
     <header>
 
-    <div calss="container">
-        <h2>Menu</h2>
+        <div class="container">
+            <h2>Menu</h2>
 
-        <nav>
-            <ul>
-                <a href="alunos.html" class="btn">Gerir Alunos</a>
-                <a href="docentes.html" class="btn">Gerir Docentes</a>
-                <a href="fornecedores.html" class="btn">Gerir Fornecedores</a>
-                <a href="pessoas.html" class="btn">Gerir Pessoas</a>
-
-            </ul>
-        </nav>
+            <nav>
+                <ul>
+                    <ul>
+    <li><a href="alunos.html" class="btn">Gerir Alunos</a></li>
+    <li><a href="docentes.html" class="btn">Gerir Docentes</a></li>
+    <li><a href="fornecedores.html" class="btn">Gerir Fornecedores</a></li>
+    <li><a href="pessoas.html" class="btn">Gerir Pessoas</a></li>
+    
+                </ul>
+            </nav>
         </div>
 
-</body>
-</html>
+    </header>
 
 <div class="container">
     <div class="card">
@@ -58,6 +58,10 @@ document.querySelector("form").addEventListener("submit", function(event) {
         event.preventDefault();
         document.getElementById("erroCpf").style.display = "block";
     }
-})
+});
 </script>
 
+
+</body>
+
+</html>

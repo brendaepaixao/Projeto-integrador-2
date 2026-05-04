@@ -1,5 +1,4 @@
-body
-{
+body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -20,11 +19,9 @@ header {
     padding: 30px 0;
 }
 
-/* CONTAINER */
+/* CONTAINER (CORRIGIDO) */
 .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: center; /* 🔥 removi o flex */
     padding: 20px;
 }
 
@@ -33,6 +30,7 @@ header {
     background: #ffffff;
     padding: 30px;
     width: 380px;
+    margin: 0 auto; /* centraliza */
     border-radius: 12px;
     box-shadow: 0px 10px 25px rgba(0,0,0,0.2);
     text-align: center;
@@ -44,18 +42,36 @@ h1 {
 }
 
 h2 {
-    margin: 20px 0 10px;
+    margin: 10px 0;
+}
+
+/* MENU */
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 0;
+    margin-top: 15px;
+}
+
+/* REMOVE ESTILO ERRADO DO LI NO MENU */
+nav ul li {
+    list-style: none;
+    background: none;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    box-shadow: none;
 }
 
 /* BOTÕES */
 .btn {
-    display: block;
+    display: inline-block;
     background: #004aad;
     color: white;
-    padding: 12px;
-    margin: 10px 0;
+    padding: 10px 18px;
     text-decoration: none;
-    border-radius: 6px;
+    border-radius: 8px;
     transition: 0.3s;
 }
 
@@ -85,7 +101,7 @@ label {
     margin-top: 10px;
 }
 
-/* LISTA (SEU CASO - LISTA DE PESSOAS) */
+/* LISTA (OUTRAS TELAS) */
 ul {
     list-style: none;
     padding: 0;
@@ -114,7 +130,7 @@ a:hover {
     text-decoration: underline;
 }
 
-/* TABELA (caso use depois) */
+/* TABELA */
 table {
     width: 100%;
     margin-top: 15px;

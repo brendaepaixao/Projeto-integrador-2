@@ -4,10 +4,10 @@ TADS e TSI — Segunda Etapa
 SENAC São Paulo
 
 Integrantes — Grupo 54
-Brenda Emerson da Paixão
-Gabrielle Sales Gomes
-Gilson Kelvin Arruda
-Sales Paula de Melo Souza
+Brenda Emerson da Paixão,
+Gabrielle Sales Gomes,
+Gilson Kelvin Arruda,
+Sales Paula de Melo Souza e
 Filipe de Lima Silveira
 
 O presente foi desenvolvido durante o 3º semestre dos cursos de TADS e TSI — Segunda Etapa, com foco na criação de interfaces web e na modelagem de banco de dados para um sistema de gestão universitária.
